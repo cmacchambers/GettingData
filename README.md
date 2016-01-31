@@ -15,8 +15,3 @@ The key datafiles are combined, filtered, re-labelled and summarized as indicate
 
 Finally, the script will create a tidy data set containing the means of all the columns per test subject and per activity. This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
 
-
-
-
-
-# GettingData
