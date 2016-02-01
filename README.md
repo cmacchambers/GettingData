@@ -5,13 +5,13 @@ This repository contains my submission for the Getting and Cleaning Data Course 
 
 The Codebook details all of the datafiles that are involved in the run_analysis.R Code.  
 
-##Prerequisites for this script:
+##Steps
 
-the UCI HAR Dataset must be extracted and
-the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
-
-
-The key datafiles are combined, filtered, re-labelled and summarized as indicated in the project requirements.
-
-Finally, the script will create a tidy data set containing the means of all the columns per test subject and per activity. This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
+The datafiles are downloaded from the Samsung repository, saved and unzipped into a new folder.
+The datafiles names and descriptions are detailed in the CodeBook.md file.
+The test and training datafiles are combined to form one superset.
+The Superset's columns are filtered to only keep the columns with means or standard deviations.
+The columns are relabelled to provide more human readable names.
+The dataset is then summarized to provide one record per subject and activity with an average of all of the columns.
+This summarized tidy dataset will be written to a tab-delimited file called tidy.txt, which is also found in this repository.
 

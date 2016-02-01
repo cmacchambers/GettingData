@@ -60,6 +60,7 @@ total4<-total3
 
 library(dplyr)
 total4 %>%
-  group_by(Subject, Activity) %>%
-  summarise_each(funs(mean))
+  group_by(Subject, Activity)%>%
+summarise_each(funs(mean)) %>%
+write.table(file="./tidy.txt", row.names=FALSE)
   
